@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "uksouth"
+        },
+        "containerName": {
+            "value": "scpoc-clamav-service"
+        },
+        "imageType": {
+            "value": "Public"
+        },
+        "imageName": {
+            "value": "mkodockx/docker-clamav:alpine"
+        },
+        "osType": {
+            "value": "Linux"
+        },
+        "numberCpuCores": {
+            "value": "1"
+        },
+        "memory": {
+            "value": "1.5"
+        },
+        "restartPolicy": {
+            "value": "Always"
+        },
+        "ipAddressType": {
+            "value": "Public"
+        },
+        "ports": {
+            "value": [
+                {
+                    "port": "3310",
+                    "protocol": "TCP"
+                }
+            ]
+        },
+        "dnsNameLabel": {
+            "value": "scpoc-clamav-service"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ClamAVServiceURI": "<clamav-service-uri>",
+    "testaccount": "<test-connection-string>",
+    "prodaccount": "<prod-connection-string>"
+  }
+}
